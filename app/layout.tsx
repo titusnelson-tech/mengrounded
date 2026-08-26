@@ -21,15 +21,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
       <body className="min-h-full flex flex-col bg-[var(--bg)] text-[var(--text)]">
         <header className="bg-[var(--surface)] border-b border-[var(--border)]">
-          <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img src="/logo.svg" alt="" className="w-10 h-10" />
-              <h1 className="text-2xl font-semibold tracking-tight text-[var(--primary)]">Mengrounded</h1>
+              <h1 className="hidden sm:block text-2xl font-semibold tracking-tight text-[var(--primary)]">Mengrounded</h1>
             </div>
             <nav className="flex items-center gap-1 text-sm">
-              <a href="/" className="px-4 py-2 rounded-md hover:bg-[var(--bg)] transition-colors">Home</a>
-              <a href="/about" className="px-4 py-2 rounded-md hover:bg-[var(--bg)] transition-colors">About</a>
-              <a href="/contact" className="px-4 py-2 rounded-md hover:bg-[var(--bg)] transition-colors">Contact</a>
+              <a href="/" className="px-3 sm:px-4 py-2 rounded-md hover:bg-[var(--bg)] transition-colors">Home</a>
+              <a href="/about" className="px-3 sm:px-4 py-2 rounded-md hover:bg-[var(--bg)] transition-colors">About</a>
+              <a href="/contact" className="px-3 sm:px-4 py-2 rounded-md hover:bg-[var(--bg)] transition-colors">Contact</a>
             </nav>
           </div>
         </header>

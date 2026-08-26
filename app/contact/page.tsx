@@ -40,7 +40,7 @@ export default function Contact() {
   return (
     <div className="max-w-2xl space-y-8">
       <div>
-        <h1 className="text-4xl font-semibold tracking-tight mb-4">Get In Touch</h1>
+        <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight mb-4">Get In Touch</h1>
         <p className="text-lg text-[var(--text-muted)]">
           Send me a message and let’s schedule a phone call, or text if 
           you prefer.

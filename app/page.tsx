@@ -4,10 +4,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="pt-6 pb-4">
         <div className="max-w-3xl">
-          <h1 className="text-5xl font-semibold tracking-tight text-[var(--primary)] mb-6">
+          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[var(--primary)] mb-6">
             What would life look like without shame, guilt, anger or failure?
           </h1>
-          <p className="text-xl text-[var(--text-muted)] max-w-2xl">
+          <p className="text-lg sm:text-xl text-[var(--text-muted)] max-w-2xl">
             I know what that weight feels like. I’ve learned how to get 
             past it.
           </p>

@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="max-w-3xl space-y-8">
       <div>
-        <h1 className="text-4xl font-semibold tracking-tight mb-4">Who I Am</h1>
+        <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight mb-4">Who I Am</h1>
         <p className="text-lg text-[var(--text-muted)]">
           I’m Titus. I’ve spent most of my life working with my hands: automotive, 
           diesel, hydraulics, construction, HVAC and refrigeration. I’m usually 
