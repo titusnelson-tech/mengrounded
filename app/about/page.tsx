@@ -3,19 +3,26 @@ export default function About() {
     <div className="max-w-3xl space-y-8">
       <div>
         <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight mb-4">Who I Am</h1>
-        <p className="text-lg text-[var(--text-muted)]">
-          I’m Titus. I’ve spent most of my life working with my hands: automotive, 
-          diesel, hydraulics, construction, HVAC and refrigeration. I’m usually 
-          the guy people call when something’s broken. Over time I’ve also become 
-          the guy they call when the problem isn’t something a wrench fixes.
-        </p>
-        <p className="text-lg text-[var(--text-muted)] mt-4">
-          I’m a Christian. I do believe my God leads me and would happily lead 
-          anyone else if they were truly looking for it. But that’s not my 
-          focus here. My focus here is to help people get through their tough 
-          times. My relationship with my God may help guide me as we talk, but 
-          you don’t need to have a faith in a God for this all to work.
-        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-[minmax(0,1fr)_15rem] gap-6 sm:gap-8 items-center">
+          <div className="order-2 sm:order-1 space-y-4">
+            <p className="text-lg text-[var(--text-muted)]">
+              I’m Titus. I’ve spent most of my life working with my hands: automotive,
+              diesel, hydraulics, construction, HVAC and refrigeration. I’m usually
+              the guy people call when something’s broken. Over time I’ve also become
+              the guy they call when the problem isn’t something a wrench fixes.
+            </p>
+            <p className="text-lg text-[var(--text-muted)]">
+              I’m a Christian. I do believe my God leads me and would happily lead
+              anyone else if they were truly looking for it. But that’s not my
+              focus here. My focus here is to help people get through their tough
+              times. My relationship with my God may help guide me as we talk, but
+              you don’t need to have a faith in a God for this all to work.
+            </p>
+          </div>
+          <div className="order-1 sm:order-2">
+            <img src="/titus.jpg" alt="Titus" className="w-full rounded-lg object-cover" />
+          </div>
+        </div>
       </div>
 
       <div className="card">
